@@ -9,8 +9,7 @@ The name is inspired by matryoshka dolls: layered objects nested inside each oth
 - Encrypt and decrypt files from the console.
 - Derive encryption keys with Argon2id and per-file salts.
 - Store encrypted files in a versioned format with per-chunk AES-GCM nonces.
-- Keep legacy decrypt support for files produced by the original format.
-- Optional USB authorization by comparing attached USB serial hashes against local configuration.
+- Optional USB authorization by comparing attached USB serial hashes against local configuration. (Optional since it is a demo project.)
 
 ## Local Setup
 
